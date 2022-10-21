@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1971546d-f768-4d91-aff9-284bf9eca222" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://www.mnb.hu/arfolyamok.asmx " Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="arfolyamok.xsd" MetadataType="Schema" ID="7855d3d8-66ad-4839-970b-6920486e8548" SourceId="1" SourceUrl="http://www.mnb.hu/arfolyamok.asmx?xsd=xsd1" />
+    <MetadataFile FileName="arfolyamok.disco" MetadataType="Disco" ID="15938176-dbe3-45ee-b655-3bc477af90d0" SourceId="1" SourceUrl="http://www.mnb.hu/arfolyamok.asmx?disco" />
+    <MetadataFile FileName="MNBArfolyamServiceSoapImpl.wsdl" MetadataType="Wsdl" ID="9145f09a-7b59-4956-8025-cfc7a44ad25e" SourceId="1" SourceUrl="http://www.mnb.hu/arfolyamok.asmx?wsdl" />
+    <MetadataFile FileName="arfolyamok.wsdl" MetadataType="Wsdl" ID="1f46bbbf-86c4-4ed1-994f-e960db70bf11" SourceId="1" SourceUrl="http://www.mnb.hu/arfolyamok.asmx?wsdl=wsdl0" />
+    <MetadataFile FileName="arfolyamok1.xsd" MetadataType="Schema" ID="7707cf84-6900-444a-b957-1ba98f6f0c86" SourceId="1" SourceUrl="http://www.mnb.hu/arfolyamok.asmx?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

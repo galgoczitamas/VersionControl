@@ -26,7 +26,7 @@ namespace tasks_week6
         public Form1()
         {
             InitializeComponent();
-            Factory = new IToyFactory();
+            Factory = new BallFactory();
 
         }
         private void createTimer_Tick(object sender, EventArgs e)

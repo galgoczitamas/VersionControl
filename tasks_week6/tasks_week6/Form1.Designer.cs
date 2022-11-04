@@ -40,19 +40,22 @@ namespace tasks_week6
             this.mainPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.mainPanel.AutoSize = true;
             this.mainPanel.Location = new System.Drawing.Point(-3, -2);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(800, 449);
+            this.mainPanel.Size = new System.Drawing.Size(802, 440);
             this.mainPanel.TabIndex = 0;
             // 
             // createTimer
             // 
+            this.createTimer.Enabled = true;
             this.createTimer.Interval = 3000;
+            this.createTimer.Tick += new System.EventHandler(this.createTimer_Tick);
             // 
             // conveyorTimer
             // 
+            this.conveyorTimer.Enabled = true;
             this.conveyorTimer.Interval = 10;
+            this.conveyorTimer.Tick += new System.EventHandler(this.conveyorTimer_Tick);
             // 
             // Form1
             // 
@@ -63,7 +66,6 @@ namespace tasks_week6
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
